@@ -1,5 +1,7 @@
 package testpkg
 
+import "strings"
+
 func Echo(str string) string {
-	return str
+	return strings.ToUpper(str)
 }
